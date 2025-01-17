@@ -1,0 +1,29 @@
+name = "sms-mw"
+main = "src/index.ts"
+compatibility_date = "2025-01-17"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+GEMINI_API_KEY = "AIzaSyDkBtufQ1Yr-_Ba5YGXepev98YVb4ldDD4"
+API_KEY = "Interconectados1234567890"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
